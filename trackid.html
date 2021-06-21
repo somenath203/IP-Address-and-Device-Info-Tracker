@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>IP-Address Tracker</title>
+	<style>
+		#gfg{
+			color: rgb(50, 53, 216);
+            font-size: 25px;
+		}
+		#name{
+			color: rgb(50, 53, 216);
+            font-size: 25px;
+		}
+		#device{
+			color: rgb(50, 53, 216);
+            font-size: 25px;
+		}
+		#os{
+			color: rgb(50, 53, 216);
+            font-size: 25px;
+		}
+		
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="trackid.js"></script>
+
+	
+</head>
+
+<body>
+	<center>
+		<h2>Your IP Address is:</h2>
+        <b><p id="gfg"></p></b>
+
+		<h2>Your Browser Name is:</h2>
+		<b><div id="name"></div></b>
+
+		<h2>Your Device type is:</h2>
+		<b><div id="device"></div></b>
+
+		<h2>Your OS is:</h2>
+		<b><div id="os"></div></b>
+
+	</center>
+
+	<script src="detect.min.js"></script>
+    <script src="browserdetect.js"></script>
+</body>
+
+</html>
